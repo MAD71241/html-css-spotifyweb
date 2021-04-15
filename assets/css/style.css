@@ -11,3 +11,22 @@
 .font-spotifygrey {
     color: #6C6F74;
 }
+
+/* classi debug */
+.dbg-main {
+    height: 1500px;
+    width: 100%;
+}
+
+.dbg-header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+}
+.dbg-footer {
+    background-color: #282828;
+    height: 90px;
+    position: fixed;
+    bottom: 0;
+}

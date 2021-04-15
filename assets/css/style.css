@@ -16,37 +16,6 @@
     color: white;
 }
 
-.sidebar .nav-link {
-    display: flex;
-    align-items: center;
-}
-
-.sidebar ul .nav-link:hover {
-    color: white;
-}
-
-.sidebar h5 {
-    padding: 20px;
-    font-weight: bold;
-    color: white;
-}
-
-.add-playlist {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: #6C6F74;
-    color: black;
-    position: relative;
-}
-
-.fa-plus {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /* classi debug */
 
 .dbg-main {
@@ -68,13 +37,13 @@
     bottom: 0;
 }
 
-/* sidebar */
+/* SIDEBAR */
 
 .sidebar {
     position: fixed;
     max-width: 250px;
     min-width: 250px;
-    height: 100%;
+    height: 100vh;
     background-color: black;
 }
 
@@ -87,27 +56,13 @@
     width: 80%;
 }
 
-.nav-item img {
-    width: 20px;
-}
-
-/* container */
-
-.container {
-    height: 100%;
-    width: 100vw;
-    padding: 20px;
-    background-image: url(../img/home.svg);
-}
-
-#main {
-    padding-top: 90px;
-}
-
 .sidebar-container {
     width: 100%;
-    padding: 10px 20px 20px 20px;
+    padding-left: 1rem;
     font-size: 12px;
+    /*     height: 42vh;
+    overflow: auto;
+    overflow-x: hidden; */
 }
 
 .sidebar-container>.row>.nav-link {
@@ -125,4 +80,97 @@
 
 .sidebar-container>.row>.nav-link:hover .add-playlist {
     background-color: white;
+}
+
+.nav-item img {
+    width: 20px;
+}
+
+.sidebar .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar ul .nav-link:hover {
+    color: white;
+}
+
+.sidebar h5 {
+    padding-left: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.add-playlist {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #6C6F74;
+    font-size: 25px;
+    color: black;
+    position: relative;
+}
+
+.fa-plus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-arrow-alt-circle-down {
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.sidebar-container .row:first-of-type {
+    height: 36vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.sidebar-container .row:last-of-type {
+    padding-top: 20px;
+}
+
+hr {
+    background-color: #6C6F74;
+    width: 80%;
+    height: 1px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile-column {
+    padding-top: 1rem;
+}
+
+.profile-img {
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.profile-name {
+    display: inline-block;
+    padding-left: 0.25rem;
+}
+
+
+
+/* MAIN CONTAINER */
+
+/* container */
+
+.container {
+    height: 100%;
+    width: 100vw;
+    padding: 20px;
+}
+
+#main {
+    padding-top: 90px;
 }

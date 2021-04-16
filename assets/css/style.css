@@ -27,6 +27,7 @@
     height: 90px;
     width: 100vw;
     position: fixed;
+    z-index: 2;
 }
 
 .dbg-footer {
@@ -35,6 +36,7 @@
     width: 100vw;
     position: sticky;
     bottom: 0;
+    z-index: 2;
 }
 
 /* SIDEBAR */
@@ -45,6 +47,7 @@
     min-width: 200px;
     height: 100%;
     background-color: black;
+    z-index: 2;
 }
 
 .sidebar-header {

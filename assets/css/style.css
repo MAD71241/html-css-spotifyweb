@@ -58,11 +58,9 @@
 
 .sidebar-container {
     width: 100%;
+    height: 100vh;
     padding-left: 1rem;
     font-size: 12px;
-    /*     height: 42vh;
-    overflow: auto;
-    overflow-x: hidden; */
 }
 
 .sidebar-container>.row>.nav-link {
@@ -97,6 +95,7 @@
 
 .sidebar h5 {
     padding-left: 1rem;
+    padding-top: 0.5rem;
     font-weight: bold;
     color: white;
 }
@@ -135,15 +134,19 @@
 
 hr {
     background-color: #6C6F74;
-    width: 80%;
+    width: 90%;
     height: 1px;
-    margin-left: 10px;
+    margin-left: 0;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 
 .profile-column {
     padding-top: 1rem;
+}
+
+.sidebar-container .row:last-of-type .profile-column {
+    padding-left: 0;
 }
 
 .profile-img {

@@ -1,0 +1,80 @@
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+/* @media (min-width: 1200px) { ... } */
+
+/* Spotify Logo for bigger devices */
+
+@media (min-width: 768px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+/* No Scroll */ 
+@media (max-width: 992px) {
+    .sidebar-container .row:first-of-type {
+        height: auto;
+    }
+}
+
+
+/* Sidebar */
+
+@media (max-width: 576px) {
+    .sidebar-header {
+        padding: 10px;
+    }
+    .sidebar-header>img:first-of-type {
+        display: none;
+    }
+    .sidebar-header>img:last-of-type {
+        width: 30px;
+    }
+    .sidebar {
+        max-width: 50px;
+        min-width: 50px;
+    }
+    .sidebar h5, .sidebar span, .sidebar-container>.row:first-of-type, hr, .row:last-of-type span, .row:last-of-type h6 {
+        display: none;
+    }
+    .sidebar-container>.row:last-of-type {
+        position: absolute;
+        bottom: 5rem;
+    }
+    .col-12:last-of-type {
+        display: flex;
+        padding-right: 0;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .fa-arrow-alt-circle-down {
+        padding-left: 5px;
+    }
+}

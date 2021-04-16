@@ -21,7 +21,7 @@
 
 @media (max-width: 576px) {
     .container-fluid {
-        padding-left: 80px;
+        padding-left: 60px;
     }
     .sidebar-header {
         padding: 10px;

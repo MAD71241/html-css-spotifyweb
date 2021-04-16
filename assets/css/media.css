@@ -43,6 +43,9 @@
 /* Sidebar */
 
 @media (max-width: 576px) {
+    .container-fluid {
+        padding-left: 80px;
+    }
     .sidebar-header {
         padding: 10px;
     }

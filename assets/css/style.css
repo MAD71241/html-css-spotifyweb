@@ -70,6 +70,7 @@
 }
 
 /* SEZIONE LATERALE */
+
 /* logo top */
 
 .sidebar-header {
@@ -99,16 +100,17 @@
 .top-sidebar ul li {
     text-decoration: none;
 }
+
 .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover {
     color: white;
     cursor: pointer;
 }
 
-.add-playlist:hover .fa-plus{
+.add-playlist:hover .fa-plus {
     background-color: white;
 }
 
-.top-sidebar .flex-column .nav-link img{
+.top-sidebar .flex-column .nav-link img {
     width: 30px;
 }
 
@@ -147,6 +149,7 @@
     list-style: none;
     padding-left: 30px;
 }
+
 .playlist ul li {
     padding: 5px 0;
     font-size: 14px;
@@ -168,10 +171,11 @@ hr {
     padding: 0;
 }
 
-#download{
+#download {
     width: 20px;
     margin-left: 30px;
 }
+
 #profile {
     width: 30px;
     height: 30px;
@@ -192,6 +196,28 @@ hr {
 }
 
 /* Albums e Playlist */
+
+#main>.row>.col-8 .row h6 {
+    color: #6C6F74;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13px
+}
+#main>.row>.col-8 .row h6:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#main>.row>.col-8 .row>.col-lg-2 {
+    padding: 0;
+}
+
+.divider {
+    width: 40px;
+    height: 3px;
+    background-color: #ADFF2F;
+    margin: auto;
+}
 
 .album-thumbnail {
     max-width: 100%;

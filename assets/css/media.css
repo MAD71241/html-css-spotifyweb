@@ -60,10 +60,13 @@
 
 /* MAIN */
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .album-thumbnail {
         display: flex;
         justify-content: center;
+    }
+    .album-thumbnail {
+        flex-direction: column;
     }
 }
 

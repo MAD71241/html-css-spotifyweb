@@ -227,6 +227,7 @@ hr {
 /* overlay */
 .image-container {
     position: relative;
+    margin: auto;
 }
 
 .album-thumbnail .overlay {

@@ -201,7 +201,8 @@ hr {
     color: #6C6F74;
     font-weight: bold;
     text-align: center;
-    font-size: 13px
+    font-size: 13px;
+    padding-top: 10px;
 }
 #main>.row>.col-8 .row h6:hover {
     cursor: pointer;
@@ -221,4 +222,40 @@ hr {
 
 .album-thumbnail {
     max-width: 100%;
+}
+
+/* overlay */
+.image-container {
+    position: relative;
+}
+
+.album-thumbnail .overlay {
+    position: absolute;
+    width: calc(100% - 30px);
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.overlay .fa-play-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+
+.overlay {
+    display: none;
+}
+
+.image-container:hover .overlay {
+    transition: 0.5s;
+    display: block;
+    cursor: pointer;
+
 }

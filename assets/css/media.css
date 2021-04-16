@@ -51,8 +51,10 @@
         padding-left: 3px;
     }
     #profile {
-
         margin: 10px 0;
+    }
+    .album-thumbnail {
+        flex-direction: column;
     }
 }
 

@@ -33,7 +33,7 @@
     background-color: #282828;
     height: 90px;
     width: 100vw;
-    position: fixed;
+    position: sticky;
     bottom: 0;
 }
 

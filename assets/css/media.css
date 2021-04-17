@@ -59,7 +59,10 @@
 
     /* PLAYER */
     #bookmark {
-        left: 15px;
+        left: 5px;
+    }
+    .player-left {
+        width: 100px;
     }
 }
 

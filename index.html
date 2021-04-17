@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -87,7 +87,9 @@
     </section>
     <!-- /Sidebar -->
 
+    <!-- Sezione Player -->
     <section class="player">
+        <!-- Sezione sinistra del player -->
         <div class="player-left">
             <img src="./assets/img/sinister.jpeg" alt="album in play" class="player-thumbnail">
             <div class="row ml-1">
@@ -103,7 +105,27 @@
                 </div>
             </div>
         </div>
+        <!-- /Sezione sinistra del player -->
+
+        <!-- Sezione centrale del player -->
+        <div class="music-player">
+            <i class="fas fa-random"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="far fa-play-circle"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-redo-alt"></i>
+            <div class="progress-bar">
+                <div class="actual-progress"></div>
+                <h6 id="time-passed">1:20</h6>
+                <h6 id="time-left">4:30</h6>
+            </div>
+        </div>
+
+        <div class="player-right">
+
+        </div>
     </section>
+    <!-- /Sezione Player -->
 
     <!-- MACRO-SEZIONE MAIN -->
     <main class="background-main">
@@ -253,7 +275,8 @@
                         </div>
                         <div class="album-thumbnail text-center col-6 col-md-3 col-lg-2">
                             <div class="image-container">
-                                <img src="./assets/img/einaudi.jpeg" alt="ludovico einaudi portrait" class="album-thumbnail circle">
+                                <img src="./assets/img/einaudi.jpeg" alt="ludovico einaudi portrait"
+                                    class="album-thumbnail circle">
                                 <div class="overlay circle">
                                     <i class="far fa-play-circle"></i>
                                 </div>

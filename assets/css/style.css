@@ -17,6 +17,15 @@
 .active {
     color: white;
 }
+
+.columnize-me {
+    display: flex;
+    flex-direction: column;
+}
+
+.fit {
+    width: calc(100% - 200px);
+}
 /* CONTAINER PRINCIPALI */
 /* MUSIC PLAYER */
 
@@ -30,6 +39,76 @@
     background-color: #282828;
     z-index: 2;
 }
+
+.music-player {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 35px;
+    margin-top: 10px;
+}
+
+.music-player i {
+    padding: 3px 7px;
+    color: white;
+}
+.music-player i:nth-of-type(3) {
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.player-right {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 20%;
+}
+
+.progress-bar {
+    width: 30%;
+    height: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    background-color: grey;
+}
+.actual-progress {
+    width: 30%;
+    height: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    background-color: white;
+}
+
+#time-passed {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    left: -30px;
+    bottom: -3px;
+    margin-bottom: 0;
+}
+
+#time-left {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    right: -30px;
+    bottom: -3px;
+    margin-bottom: 0;
+}
+
 
 /* SIDEBAR */
 
@@ -298,5 +377,5 @@ hr {
 }
 
 #heart {
-    left: 15px;
+    left: 5px;
 }

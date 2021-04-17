@@ -1,5 +1,7 @@
 /* CLASSI GENERICHE COLORE */
-
+.dbg {
+    background-color: red;
+}
 .background-main {
     background-color: #141922;
 }
@@ -15,7 +17,7 @@
 .active {
     color: white;
 }
-
+/* CONTAINER PRINCIPALI */
 /* MUSIC PLAYER */
 
 .player {
@@ -71,7 +73,7 @@
 
 /* SEZIONE LATERALE */
 
-/* logo top */
+/* LOGO SIDEBAR */
 
 .sidebar-header {
     width: 100%;
@@ -82,7 +84,7 @@
     width: 80%;
 }
 
-/* Sezione superiore */
+/* SIDEBAR TOP */
 
 .active-selector {
     position: absolute;
@@ -114,7 +116,7 @@
     width: 30px;
 }
 
-/* Aggiungi Playlist */
+/* SEZIONE PLAYLIST */
 
 .add-playlist span {
     display: inline-block;
@@ -138,7 +140,7 @@
     display: inline-block;
 }
 
-/* Sezione con Overflow */
+/* PLAYLIST OVERFLOW */
 
 .playlist {
     height: 40%;
@@ -155,7 +157,7 @@
     font-size: 14px;
 }
 
-/* Sezione Footer Bottom */
+/* SIDEBAR - BOTTOM */
 
 .bottom-sidebar {
     position: absolute;
@@ -195,7 +197,7 @@ hr {
     z-index: 1;
 }
 
-/* Albums e Playlist */
+/* ALBUMS & PLAYLIST */
 
 #main>.row>.col-8 .row h6 {
     color: #6C6F74;
@@ -224,7 +226,7 @@ hr {
     max-width: 100%;
 }
 
-/* overlay */
+/* OVERLAY */
 .image-container {
     position: relative;
     margin: auto;
@@ -260,8 +262,41 @@ hr {
     cursor: pointer;
 }
 
+/* CIRCLE OVERLAY */
+
 .circle {
     border-radius: 50%;
 }
 
-/* CIRCLE OVERLAY */
+/* PLAYER */
+
+.player-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+}
+
+.player-left>.row:first-of-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-left>.row:first-of-type h5 {
+    font-weight: bold;
+    font-size: 13px;
+}
+.player-left>.row:first-of-type h6 {
+    font-size: 11px;
+}
+
+.player-thumbnail {
+    width: 40px;
+    height: 40px;
+    margin: 20px 10px;
+}
+
+#heart {
+    left: 15px;
+}

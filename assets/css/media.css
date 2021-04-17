@@ -56,6 +56,11 @@
     .album-thumbnail {
         flex-direction: column;
     }
+
+    /* PLAYER */
+    #bookmark {
+        left: 15px;
+    }
 }
 
 /* MAIN */

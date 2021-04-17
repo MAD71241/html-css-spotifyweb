@@ -260,4 +260,8 @@ hr {
     cursor: pointer;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 /* CIRCLE OVERLAY */

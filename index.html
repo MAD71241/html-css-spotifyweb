@@ -5,25 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
         integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/media.css">
-    <title>Spotify</title>
+    <title>Spotify WebApp</title>
 </head>
 
 <body class="background-main">
+    <!-- Header -->
     <section class="header">
         <h6 class="text-uppercase">Effettua l'upgrade</h6>
     </section>
+    <!-- /Header -->
 
+    <!-- Sidebar -->
     <section class="sidebar">
+        <!-- Header - Logo -->
         <div class="sidebar-header">
             <img src="./assets/img/logo.svg" alt="spotify logo large">
             <img src="./assets/img/logo-small.svg" class="mobile-logo" alt="spotify logo small">
         </div>
+        <!-- /Header - Logo -->
+
+        <!-- Sezione Top Sidebar -->
         <div class="top-sidebar font-spotifygrey">
             <span class="active-selector"></span>
             <ul class="nav flex-column align-content-center">
@@ -41,6 +49,9 @@
                 </li>
             </ul>
         </div>
+        <!-- /Sezione Top Sidebar -->
+
+        <!-- Sezione Playlist Sidebar -->
         <div class="add-playlist">
             <i class="fas fa-plus"></i>
             <span class="font-spotifygrey">Crea Playlist</span>
@@ -56,7 +67,9 @@
                 <li>Aggiungi Playlist</li>
             </ul>
         </div>
+        <!-- /Sezione Playlist Sidebar -->
 
+        <!-- Sezione Utente Sidebar -->
         <div class="bottom-sidebar">
             <div class="user">
                 <div>
@@ -70,11 +83,14 @@
                 </div>
             </div>
         </div>
+        <!-- /Sezione Utente Sidebar -->
     </section>
+    <!-- /Sidebar -->
 
     <section class="player">
     </section>
 
+    <!-- MACRO-SEZIONE MAIN -->
     <main class="background-main">
         <div class="container-fluid">
             <div class="row">
@@ -237,6 +253,7 @@
 
         </div>
     </main>
+    <!-- /MACRO-SEZIONE MAIN -->
 </body>
 
 </html>

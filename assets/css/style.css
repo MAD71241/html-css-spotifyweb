@@ -63,6 +63,8 @@
 
 .player-right {
     position: absolute;
+    display: flex;
+    align-items: center;
     right: 0;
     height: 100%;
     width: 20%;
@@ -95,7 +97,7 @@
     position: absolute;
     color: white;
     font-size: 10px;
-    left: -30px;
+    left: -20px;
     bottom: -3px;
     margin-bottom: 0;
 }
@@ -104,11 +106,48 @@
     position: absolute;
     color: white;
     font-size: 10px;
-    right: -30px;
+    right: -20px;
     bottom: -3px;
     margin-bottom: 0;
 }
 
+/* PLAYER VOLUME SECTION */
+.volume-bar {
+    width: 60%;
+    height: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: grey;
+    margin-left: 5px;
+}
+
+.volume-bar-slide {
+    width: 40%;
+    height: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.volume-bar:hover .volume-bar-slider {
+    display: inline-block;
+}
+.volume-bar-slider {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    justify-self: right;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+
+}
 
 /* SIDEBAR */
 
@@ -122,8 +161,7 @@
 }
 
 /* HEADER */
-
-/* contenitore principale */
+/* CONTENITORE PRINCIPALE */
 
 .header {
     background-color: rgba(0, 0, 0, 0.5);

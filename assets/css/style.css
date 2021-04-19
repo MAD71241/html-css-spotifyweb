@@ -1,7 +1,5 @@
 /* CLASSI GENERICHE COLORE */
-.dbg {
-    background-color: red;
-}
+
 .background-main {
     background-color: #141922;
 }
@@ -23,10 +21,8 @@
     flex-direction: column;
 }
 
-.fit {
-    width: calc(100% - 200px);
-}
 /* CONTAINER PRINCIPALI */
+
 /* MUSIC PLAYER */
 
 .player {
@@ -56,6 +52,7 @@
     padding: 3px 7px;
     color: white;
 }
+
 .music-player i:nth-of-type(3) {
     padding: 5px 10px;
     font-size: 30px;
@@ -82,6 +79,7 @@
     bottom: 20px;
     background-color: grey;
 }
+
 .actual-progress {
     width: 30%;
     height: 5px;
@@ -112,6 +110,7 @@
 }
 
 /* PLAYER VOLUME SECTION */
+
 .volume-bar {
     width: 50%;
     height: 5px;
@@ -134,9 +133,7 @@
     align-items: center;
     position: relative;
 }
-.volume-bar:hover .volume-bar-slider {
-    display: inline-block;
-}
+
 .volume-bar-slider {
     display: none;
     width: 15px;
@@ -146,7 +143,6 @@
     border-radius: 50%;
     position: absolute;
     right: 0;
-
 }
 
 /* SIDEBAR */
@@ -161,6 +157,7 @@
 }
 
 /* HEADER */
+
 /* CONTENITORE PRINCIPALE */
 
 .header {
@@ -181,11 +178,6 @@
     font-size: 14px;
     padding: 10px;
     border-radius: 25px;
-}
-
-.header h6:hover {
-    font-size: 16px;
-    cursor: pointer;
 }
 
 /* SEZIONE LATERALE */
@@ -218,15 +210,6 @@
 
 .top-sidebar ul li {
     text-decoration: none;
-}
-
-.top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover {
-    color: white;
-    cursor: pointer;
-}
-
-.add-playlist:hover .fa-plus {
-    background-color: white;
 }
 
 .top-sidebar .flex-column .nav-link img {
@@ -323,10 +306,6 @@ hr {
     font-size: 13px;
     padding-top: 10px;
 }
-#main>.row>.col-8 .row h6:hover {
-    cursor: pointer;
-    color: white;
-}
 
 #main>.row>.col-8 .row>.col-lg-2 {
     padding: 0;
@@ -344,6 +323,7 @@ hr {
 }
 
 /* OVERLAY */
+
 .image-container {
     position: relative;
     margin: auto;
@@ -373,12 +353,6 @@ hr {
     display: none;
 }
 
-.image-container:hover .overlay {
-    transition: 0.5s;
-    display: block;
-    cursor: pointer;
-}
-
 /* CIRCLE OVERLAY */
 
 .circle {
@@ -404,6 +378,7 @@ hr {
     font-weight: bold;
     font-size: 13px;
 }
+
 .player-left>.row:first-of-type h6 {
     font-size: 11px;
 }
@@ -418,6 +393,85 @@ hr {
     display: none;
 }
 
+.progress-slider {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+
 #heart {
     left: 5px;
+}
+
+
+/* CLASSI HOVER */
+
+/* header */
+
+.header h6:hover {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Sezione superiore della sidebar */
+
+.add-playlist:hover .fa-plus {
+    background-color: white;
+}
+
+#main>.row>.col-8 .row h6:hover {
+    cursor: pointer;
+    color: white;
+}
+
+/* Aggiunti ai preferiti */
+
+.fa-heart::before, .fa-folder:before {
+    color: grey;
+}
+
+#heart:hover .fa-heart:before, #bookmark:hover .fa-folder:before, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/* Nome brano */
+
+#song-name:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Overlay Album */
+
+.image-container:hover .overlay {
+    transition: 0.5s;
+    display: block;
+    cursor: pointer;
+}
+
+/* Player */
+
+.fa-random:hover, .fa-step-backward:hover, .fa-play-circle:hover, .fa-step-forward:hover, .fa-redo-alt:hover, .fa-list-ul:hover, .fa-volume-up:hover, .fa-desktop:hover, #song-name:hover {
+    cursor: pointer;
+}
+
+.music-player i:nth-of-type(3):hover {
+    font-size: 35px;
+}
+
+/* Durata canzone e volume */
+
+.progress-bar:hover .actual-progress, .volume-bar:hover .volume-bar-slide {
+    background-color: #ADFF2F;
+    cursor: pointer;
+}
+
+.progress-bar:hover .progress-slider, .volume-bar:hover .volume-bar-slider {
+    display: inline-block;
 }

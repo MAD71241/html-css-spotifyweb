@@ -94,13 +94,13 @@
             <img src="./assets/img/sinister.jpeg" alt="album in play" class="player-thumbnail">
             <div class="row ml-1">
                 <h5 class="p-0 mb-0 text-white">Artista</h5>
-                <h6 class="font-spotifygrey p-0 mb-0">Nome Brano</h6>
+                <h6 class="font-spotifygrey p-0 mb-0" id="song-name">Nome Brano</h6>
             </div>
             <div class="row ml-1">
-                <div class="col-12 col-sm-6 text-white" id="heart">
+                <div class="col-12 col-sm-6" id="heart">
                     <i class="far fa-heart"></i>
                 </div>
-                <div class="col-12 col-sm-6 text-white" id="bookmark">
+                <div class="col-12 col-sm-6" id="bookmark">
                     <i class="far fa-folder"></i>
                 </div>
             </div>
@@ -115,7 +115,9 @@
             <i class="fas fa-step-forward"></i>
             <i class="fas fa-redo-alt"></i>
             <div class="progress-bar">
-                <div class="actual-progress"></div>
+                <div class="actual-progress">
+                    <div class="progress-slider"></div>
+                </div>
                 <h6 id="time-passed">1:20</h6>
                 <h6 id="time-left">4:30</h6>
             </div>

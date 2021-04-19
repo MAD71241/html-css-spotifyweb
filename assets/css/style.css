@@ -410,12 +410,18 @@ hr {
 
 
 /* CLASSI HOVER */
-
+/* Generale Cursor Pointer */
+.progress-bar:hover .actual-progress, .volume-bar:hover .volume-bar-slide, .fa-random:hover, .fa-step-backward:hover, .fa-play-circle:hover, .fa-step-forward:hover, .fa-redo-alt:hover, .fa-list-ul:hover, .fa-volume-up:hover, .fa-desktop:hover, #song-name:hover, .header h6:hover, #main>.row>.col-8 .row h6:hover, #heart:hover .fa-heart:before, #bookmark:hover .fa-folder:before, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover, .image-container:hover .overlay {
+    cursor: pointer;
+}
+/* Generale Color White */
+#song-name:hover, #main>.row>.col-8 .row h6:hover, #heart:hover .fa-heart:before, #bookmark:hover .fa-folder:before, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover {
+    color: white;
+}
 /* header */
 
 .header h6:hover {
     font-size: 16px;
-    cursor: pointer;
 }
 
 /* Sezione superiore della sidebar */
@@ -424,26 +430,15 @@ hr {
     background-color: white;
 }
 
-#main>.row>.col-8 .row h6:hover {
-    cursor: pointer;
-    color: white;
-}
-
 /* Aggiunti ai preferiti */
 
 .fa-heart::before, .fa-folder:before {
     color: grey;
 }
 
-#heart:hover .fa-heart:before, #bookmark:hover .fa-folder:before, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover {
-    color: white;
-    cursor: pointer;
-}
-
 /* Nome brano */
 
 #song-name:hover {
-    color: white;
     text-decoration: underline;
 }
 
@@ -452,14 +447,9 @@ hr {
 .image-container:hover .overlay {
     transition: 0.5s;
     display: block;
-    cursor: pointer;
 }
 
 /* Player */
-
-.fa-random:hover, .fa-step-backward:hover, .fa-play-circle:hover, .fa-step-forward:hover, .fa-redo-alt:hover, .fa-list-ul:hover, .fa-volume-up:hover, .fa-desktop:hover, #song-name:hover {
-    cursor: pointer;
-}
 
 .music-player i:nth-of-type(3):hover {
     font-size: 35px;
@@ -469,7 +459,6 @@ hr {
 
 .progress-bar:hover .actual-progress, .volume-bar:hover .volume-bar-slide {
     background-color: #ADFF2F;
-    cursor: pointer;
 }
 
 .progress-bar:hover .progress-slider, .volume-bar:hover .volume-bar-slider {

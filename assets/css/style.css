@@ -193,6 +193,12 @@
     width: 80%;
 }
 
+@media (min-width: 576px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
 /* SIDEBAR TOP */
 
 .active-selector {

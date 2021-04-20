@@ -411,7 +411,7 @@ hr {
 
 /* CLASSI HOVER */
 /* Generale Cursor Pointer */
-.progress-bar:hover, .volume-bar:hover, .fa-random:hover, .fa-step-backward:hover, .fa-play-circle:hover, .fa-step-forward:hover, .fa-redo-alt:hover, .fa-list-ul:hover, .fa-volume-up:hover, .fa-desktop:hover, #song-name:hover, .header h6:hover, #main>.row>.col-8 .row h6:hover, #heart:hover .fa-heart:before, #bookmark:hover .fa-folder:before, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover, .image-container:hover .overlay {
+.progress-bar:hover, .volume-bar:hover, .fa-random:hover, .fa-step-backward:hover, .fa-play-circle:hover, .fa-step-forward:hover, .fa-redo-alt:hover, .fa-list-ul:hover, .fa-volume-up:hover, .fa-desktop:hover, #song-name:hover, .header h6:hover, #main>.row>.col-8 .row h6:hover, #heart:hover, #bookmark:hover, .top-sidebar .nav-link:hover, .add-playlist:hover span, .playlist ul li:hover, .bottom-sidebar span:hover, .image-container:hover .overlay {
     cursor: pointer;
 }
 /* Generale Color White */

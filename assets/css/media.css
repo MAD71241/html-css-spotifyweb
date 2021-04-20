@@ -71,19 +71,17 @@
     .player-right .fas {
         font-size: 14px;
     }
-
-    /* Volume Bar inalterata */
-    .volume-bar {
+    /* CLASSI MEDIA PER VOLUME BAR */
+    /* ---DA NON COMMENTARE PER: Volume Bar inalterata */
+/*     .volume-bar {
         width: 30%;
     }
     .volume-bar-slider {
         height: 10px;
         width: 10px;
-    }
+    } */
 
-
-    /* Volume Bar - nascosta */
-
+    /* DA NON COMMENTARE PER: Volume Bar - mobile */
 /*     .volume-bar-mobile {
         border-radius: 25px;
         font-size: 15px;
@@ -103,7 +101,12 @@
         display: flex;
         width: 5px;
         height: 60px;
+    }
 } */
+
+/* DA NON COMMENTARE PER: Volume Bar Nascosta */
+.volume-bar {
+    display: none;
 }
 
 /* RIGHT PLAYER - Dispositivi Mobile */
